@@ -70,3 +70,9 @@ diferenciaArea <- function(ladoCuadrado1,ladoCuadrado2){
 
 diferenciaArea(5,9)
 
+diferenciaArea <- function(areaCuadrado1,areaCuadrado2){
+  d <- (areaCuadrado1**2-areaCuadrado2**2)
+  return(abs(d))
+}
+diferenciaArea(1,3)
+
